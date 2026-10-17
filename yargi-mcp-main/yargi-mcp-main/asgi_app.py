@@ -76,7 +76,6 @@ async def health_check():
         "status": "healthy",
         "service": "Yargı MCP Server",
         "version": "0.1.0",
-        "tools_count": len(mcp_server._tool_manager._tools),
     }
 
 
