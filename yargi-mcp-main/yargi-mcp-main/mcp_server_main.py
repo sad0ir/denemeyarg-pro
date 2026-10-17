@@ -10,7 +10,6 @@ from mcp.types import JSONRPCNotification as _McpJSONRPCNotification, JSONRPCMes
 from pydantic import ConfigDict as _ConfigDict
 _McpJSONRPCNotification.model_config = _ConfigDict(extra="forbid")
 _McpJSONRPCNotification.model_rebuild(force=True)
-_McpJSONRPCMessage.model_rebuild(force=True)
 # --- End MCP Spec Compliance ---
 
 import asyncio
